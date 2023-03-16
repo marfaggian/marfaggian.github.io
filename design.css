@@ -1,0 +1,189 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+.pantalla-dividida {
+    display: flex;
+}
+
+.derecha {
+    background: #E6E2C7;
+    width: 70%;
+}
+
+.izquierda {
+    background: #BC383F;
+    width: 30%;
+    color:#E6E2C7;
+    overflow: hidden;
+}
+
+.lateral {
+    width: 0px;
+}
+
+.lateralder {
+    width: 100%;
+}
+
+/* Acá comienzan los estilos del lado izquierdo de la pantalla */
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+h4 {
+    position: relative;
+    margin: 10px 0px 10px 50px;
+}
+
+h3 {
+    text-indent: 60px;
+}
+
+.fa-solid {
+    display: flex;
+    color:#E6E2C7;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.fa-arrow-right-arrow-left {
+    color:#7E262B;
+}
+
+.informacion {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;   
+}
+
+/*Acá comienzan los estilos del lado derecho de la pantalla*/
+
+h1 {
+    text-align: center;
+    font-size: 350%;
+    color: #7E262B;
+    font-family: 'Aboreto', cursive;
+}
+
+.cabezal{
+    display: flex;
+    align-items: center;
+    background-color: #7E262B;
+    border: 0px;
+    position: relative;
+    margin: 10px 0px 10px 0px;
+}
+
+.cabezal-boton {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: "Jost", sans-serif;
+    background-color: #7E262B;
+    border: 0px;
+    position: relative;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+
+.sub-cabezal {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: "Jost", sans-serif;
+    background-color: #9f3037;
+    border: 0px;
+    position: relative;
+    margin: 15px 0px 15px 0px;
+    cursor: pointer;    
+}
+
+.titulo {
+    color: #E6E2C7;
+}
+
+.fa-circle-down {
+    display: flex;
+    color: #BC383F;
+    font-size: 20px;
+    position: relative;
+    margin-left: 20px;
+}
+
+h5 {
+    padding: 10px 0px 10px 60px;
+    margin: 0px;
+}
+
+li { 
+    margin-left: 30px;
+}
+
+
+
+p {
+    text-indent: 20px;
+    margin: 5px 0px 5px 0px;
+}
+
+
+.contenedor-seccion-experiencia {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 600ms ease-in-out;
+}
+
+.height-Exp {
+    max-height: 570px;
+}
+
+.contenedor-seccion-formacion {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 600ms ease-in-out;
+}
+
+.height-Form {
+    max-height: 570px;
+}
+
+.contenedor-seccion-infoad {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 600ms ease-in-out;
+}
+
+.height-Infoad {
+    max-height: 200px;
+}
+
+.lista {
+    max-height: 110px;
+    overflow: hidden;
+    transition: max-height 600ms ease-in-out;
+}
+
+.height-lista {
+    max-height: 0px;
+}
+
+.transition {
+    transform: rotate(180deg);
+}
+
+
+
+
